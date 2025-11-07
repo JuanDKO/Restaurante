@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="700.0" maxWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.EntradaController">
+   <children>
+      <Label prefHeight="50.0" prefWidth="1000.0" style="-fx-background-color: lightgreen;" />
+      <Label layoutY="650.0" prefHeight="50.0" prefWidth="1000.0" style="-fx-background-color: lightgreen;" />
+      <ImageView fitHeight="602.0" fitWidth="1000.0" layoutY="49.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Imagenes/luces-de-ciudad-borrosas.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="239.0" fitWidth="233.0" layoutX="384.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="350.0" layoutY="247.0" prefHeight="398.0" prefWidth="300.0" style="-fx-background-color: white;" />
+      <Label layoutX="358.0" layoutY="337.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: white;" />
+      <Label layoutX="358.0" layoutY="264.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="1" />
+      <Label layoutX="456.0" layoutY="264.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="2" />
+      <Label layoutX="553.0" layoutY="264.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="3" />
+      <Label layoutX="359.0" layoutY="361.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="4" />
+      <Label layoutX="457.0" layoutY="361.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="5" />
+      <Label layoutX="554.0" layoutY="361.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="6" />
+      <Label layoutX="359.0" layoutY="453.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="7" />
+      <Label layoutX="457.0" layoutY="453.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="8" />
+      <Label layoutX="554.0" layoutY="453.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="9" />
+      <Label layoutX="456.0" layoutY="546.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="0" />
+      <Label layoutX="553.0" layoutY="546.0" prefHeight="86.0" prefWidth="88.0" style="-fx-background-color: lightgrey;" text="Enter" />
+   </children>
+</AnchorPane>
