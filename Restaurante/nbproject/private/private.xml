@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/usuario/NetBeansProjects/Restaurante/src/Controlador/Main.java</file>
-            <file>file:/home/usuario/NetBeansProjects/Restaurante/src/Vistas/Entrada.fxml</file>
-            <file>file:/home/usuario/NetBeansProjects/Restaurante/src/Controlador/EntradaController.java</file>
+            <file>file:/C:/Users/User/Desktop/NetBeans/Restaurante/src/Controlador/EntradaController.java</file>
+            <file>file:/C:/Users/User/Desktop/NetBeans/Restaurante/src/Vistas/InicioSesion.fxml</file>
+            <file>file:/C:/Users/User/Desktop/NetBeans/Restaurante/src/Vistas/PantallaInicio.fxml</file>
+            <file>file:/C:/Users/User/Desktop/NetBeans/Restaurante/src/Controlador/PantallaInicioController.java</file>
+            <file>file:/C:/Users/User/Desktop/NetBeans/Restaurante/src/Vistas/mesas.fxml</file>
+            <file>file:/C:/Users/User/Desktop/NetBeans/Restaurante/src/Controlador/MesasController.java</file>
         </group>
     </open-files>
 </project-private>

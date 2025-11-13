@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="700.0" maxWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.EntradaController">
+   <children>
+      <Label prefHeight="50.0" prefWidth="1000.0" style="-fx-background-color: lightgreen;" />
+      <Label layoutY="650.0" prefHeight="50.0" prefWidth="1000.0" style="-fx-background-color: lightgreen;" />
+      <ImageView fitHeight="602.0" fitWidth="1000.0" layoutY="49.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Imagenes/luces-de-ciudad-borrosas.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="239.0" fitWidth="233.0" layoutX="384.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="350.0" layoutY="247.0" prefHeight="398.0" prefWidth="300.0" style="-fx-background-color: #1C871C;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="376.0" layoutY="337.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="1" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="466.0" layoutY="337.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="2" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="553.0" layoutY="337.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="3" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="376.0" layoutY="411.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="4" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="466.0" layoutY="411.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="5" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="553.0" layoutY="411.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="6" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="376.0" layoutY="488.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="7" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="466.0" layoutY="488.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="8" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="554.0" layoutY="488.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="9" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="466.0" layoutY="568.0" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #146114;" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="543.0" layoutY="568.0" prefHeight="70.0" prefWidth="90.0" style="-fx-background-color: #146114;" text="Enter" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="376.0" layoutY="258.0" prefHeight="70.0" prefWidth="250.0" style="-fx-background-color: #146114;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
