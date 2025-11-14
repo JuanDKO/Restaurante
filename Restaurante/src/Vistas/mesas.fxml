@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: lightgreen;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="Controlador.MesasController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/bar.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="m1" layoutX="460.0" layoutY="160.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m2" layoutX="480.0" layoutY="238.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m3" layoutX="543.0" layoutY="238.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m4" layoutX="613.0" layoutY="238.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m7" layoutX="795.0" layoutY="187.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m6" layoutX="729.0" layoutY="244.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m5" layoutX="670.0" layoutY="244.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m8" layoutX="453.0" layoutY="555.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m9" layoutX="563.0" layoutY="549.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m10" layoutX="676.0" layoutY="549.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+      <Label fx:id="m11" layoutX="786.0" layoutY="549.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 70px;" />
+   </children>
+</AnchorPane>
